@@ -12,18 +12,40 @@ const Telalogin = () => {
 
     return (
         <div>
+
           <h1>Login</h1>
+
           <form onSubmit={handlerLogin}>
     
           <input
               placeholder='Nome'
               type="nome" >
             </input>
+            
             <input
         
               placeholder='E-mail'
               type="email">
-            </input> </div>
+            </input>
+            
+            <input
+          placeholder='Senha'
+          type='password'
+        >
+        </input>
+
+        <button
+            >Entrar
+            
+        </button>
+
+        </form>
+
+        <ToastContainer/>
+            
+         </div>
+
+            
   )
 };
 
