@@ -21,7 +21,7 @@ const Telalogin = () => {
               placeholder='Nome'
               type="nome" >
             </input>
-            
+
             <input
         
               placeholder='E-mail'
@@ -34,8 +34,9 @@ const Telalogin = () => {
         >
         </input>
 
-        <button
-            >Entrar
+        <button>
+            
+            Entrar
             
         </button>
 
