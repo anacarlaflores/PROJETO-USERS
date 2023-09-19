@@ -4,10 +4,12 @@ import Listar from "@/app/componentes/listar";
 
 export default async function Dashboard() {
    
+    const users = await getUsers();
+    
     return (
         <div>
            
-           <Suspense fallback={<p> carregando pagina...</p>}>
+           <Suspense fallback={<p>processando</p>}>
                 <Listar users={users}/>
 
                 <button>
