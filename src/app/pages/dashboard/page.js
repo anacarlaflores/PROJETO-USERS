@@ -6,7 +6,23 @@ export default async function Dashboard() {
    
     return (
         <div>
-            <h1>Dashboard</h1>
+           
+           <Suspense fallback={<p> carregando pagina...</p>}>
+                <Listar users={users}/>
+
+                <button>
+                    
+                    <a href="/pages/alterar">Alterar</a>
+                    
+                </button>
+
+                <button>
+                    
+                    <a href="/pages/registrar">Registrar</a>
+                    
+                </button>
+                
+           </Suspense>
             
         </div>
     );
