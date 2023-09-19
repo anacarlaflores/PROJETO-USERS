@@ -5,6 +5,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Telalogin = () => {
 
+    const handlerLogin = async (e) => {
+        e.preventDefault();
+        toast.success('alterado com sucesso')
+      }
 
 
 };
