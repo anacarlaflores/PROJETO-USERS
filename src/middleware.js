@@ -23,10 +23,11 @@ export const middleware = (request) => {
             return NextResponse.redirect(Users);
         }
     }
-    
+
     NextResponse.next();
 };
+
 export const config = {
-    matcher: ['/', '/pages/dashboard']
+    matcher: ['/', '/pages/dashboard', '/pages/alterar', '/pages/register', ]
 };
 
