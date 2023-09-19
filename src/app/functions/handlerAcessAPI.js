@@ -32,6 +32,8 @@ return userAuth;
 }
 
 const getUsers = () =>{
-        
+
+    return Users;
+    
 }
-export { getUsers, getUserAuthenticated };
+export {getUserAuthenticated, getUsers};
