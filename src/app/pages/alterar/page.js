@@ -10,6 +10,51 @@ const Telalogin = () => {
         toast.success('alterado com sucesso')
       }
 
+      return (
+
+        <div>
+
+        <h1>LOGIN</h1>
+
+        <form onSubmit={handlerLogin}>
+
+        <input
+          placeholder='Nome'
+          type="nome" >
+        </input>
+
+        <input
+          placeholder='E-mail'
+          type="email">
+        </input>
+
+        <input
+          placeholder='Senha'
+          type='password'
+        >
+        </input>
+
+        <button>
+
+            ENTRAR
+        
+        </button>
+
+        <button>
+            
+            <a href="/pages/dashboard">VOLTAR</a>
+            
+        </button>
+
+       </form>
+
+       <ToastContainer/>
+
+        </div>
+
+      )
+
+
 
 };
 
