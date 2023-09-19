@@ -13,7 +13,7 @@ const Telalogin = () => {
     return (
         <div>
 
-          <h1>Login</h1>
+          <h1>LOGIN</h1>
 
           <form onSubmit={handlerLogin}>
     
@@ -36,7 +36,7 @@ const Telalogin = () => {
 
         <button>
             
-            Entrar
+            ENTRAR
             
         </button>
 
