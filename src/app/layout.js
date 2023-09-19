@@ -1,6 +1,6 @@
 import '../app/style.css'
 export const metadata = {
-  title: 'Register users',
+  title: 'USERS',
   description: 'Project for class PTAC',
 }
 
